@@ -12,3 +12,26 @@ backend/model/movie_recommender.pkl
 .venv/
 *.pkl
 *.pickle
+
+# Node.js
+node_modules/
+.env
+package-lock.json
+
+# Python
+venv/
+__pycache__/
+
+# Build files
+build/
+dist/
+.cache/
+.next/
+
+# Logs
+*.log
+
+# CSV / Large files (optional)
+*.csv
+database.sqlite
+
