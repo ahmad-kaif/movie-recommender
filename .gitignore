@@ -1,4 +1,11 @@
 backend/model/similarity.pkl
-backend/model/similarity.pkl
-backend/model/similarity.pkl
-backend/model/similarity.pkl
+backend/model/movie_recommender_dict.pkl
+backend/model/movie_recommender.pkl
+
+*.venv
+*.pyc
+*.log
+*.db
+*.sqlite3
+*.pyo
+*.pyc
