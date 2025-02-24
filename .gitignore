@@ -9,3 +9,6 @@ backend/model/movie_recommender.pkl
 *.sqlite3
 *.pyo
 *.pyc
+.venv/
+*.pkl
+*.pickle
