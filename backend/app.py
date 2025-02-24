@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pickle as pkl
 import pandas as pd
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -31,5 +32,11 @@ def get_recommendations():
 
     return jsonify({"recommended_movies": recommended})  # Ensure list of strings
 
+PORT = int(os.getenv("PORT", 5000))  # Default to 5000 if not set
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=PORT)
