@@ -27,3 +27,4 @@ pandas
 numpy
 python-dotenv
 gunicorn
+python-dotenv
