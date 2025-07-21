@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System  
+# 🎬 Movie Recommendations System  
 
 A simple **Movie Recommender System** where users input a movie, and the system suggests **5 related movies** based on similarity.   
 
@@ -13,4 +13,5 @@ A simple **Movie Recommender System** where users input a movie, and the system 
 
 ### Machine Learning:  
 - **IMDB Dataset** (Preprocessed and saved using Pickle)  
+- **NLP** 
 
